@@ -1,0 +1,24 @@
+{
+    "pages": [        
+        
+        {
+        "pageNumber": "1",
+        "question": "As an underwriter at Lloyd’s, I have been offered the opportunity to renew an expiring aviation risk that has had no claims in the past three years. I am keen to renew, however, the market is softening, and the broker believes that he can get better terms elsewhere in the market.",
+        "answer1":"Offer the broker a personal incentive to place the business with you.",
+        "answer2":"Insist on a renewal on last year’s terms and tell the broker to absorb any premium reduction from his commission.",
+        "answer3":"Remind the broker of the benefits, for the client, of renewing with an established underwriter with great claims service standards.",
+        "answer4":"Accept a rate reduction but only if the broker takes you for dinner at your favourite restaurant.",
+        "correctanswer":"3"
+        },
+        
+        {
+        "pageNumber": "2",
+        "question": "Page No 2",
+        "answer1":"Page No 2",
+        "answer2":"Page No 2",
+        "answer3":"Page No 2",
+        "answer4":"Page No 2",
+        "correctanswer":"2"
+        }
+    ]
+}

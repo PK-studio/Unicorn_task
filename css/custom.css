@@ -1,0 +1,255 @@
+
+body {
+  margin: 0 auto;
+  background: #9e9e9e;
+  max-width: 1000px;
+  min-height: 610px;
+}
+.testbox{
+  position: relative;
+  background-image: url("../images/bg.jpg");
+  background-size: cover;
+  background-position: 50% 50%;
+  display: block;
+  background-color:white;
+  min-height: 610px;
+}
+header{
+  position: relative;
+  width: 100%;
+  display: table;
+  background-color: #f7f7f7;
+  height: 64px;
+  border-bottom: 2px solid red;
+}
+nav{
+  width: 120px;
+  display: table-cell;
+  vertical-align: middle;
+}
+header div{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+header h1{
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  margin-left: 0px;
+  color: #4705ca
+}
+.home{
+  background-image: url("../images/home.png");
+  width: 46px;
+  height: 46px;
+}
+.exit{
+  background-image: url("../images/exit.png");
+  width: 46px;
+  height: 46px;
+}
+.content{
+  position: relative;
+  margin: 12px 12px 0 12px;
+  padding-bottom: 100px;
+}
+.testheader{
+  width: 100%;
+}
+.testicon{
+  display: none;
+}
+.testicon img{
+  vertical-align: top;
+}
+.decoration{
+  display: none;
+}
+.questionbox {
+  width: 100%;
+  margin-left: 0;
+  position: relative;
+  min-height: 96px;
+  padding: 10px;
+  text-align: justify;
+  background-color: rgb(27, 20, 100);
+  color:white;
+}
+.questionbox p{
+  margin: 5px; 
+}
+.testmain{
+  position: relative;
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+.instructions{
+  width: 100%;
+  margin-bottom: 0;
+  background-color: rgb(27, 20, 100);
+  color: white;
+  text-align: left;
+}
+.instructions p{
+  padding: 15px 25px;
+  margin-bottom: 0;
+}
+.answerbox{
+  width: 100%;
+  height: auto;
+  background: rgba(255, 255, 255, .6);
+  padding: 10px;
+}
+.answerbox .answer:first-child{
+  margin-top: 0;
+}
+.answerbox .answer:last-child{
+  margin-bottom: 0; 
+}
+.answer {
+  position: relative;
+  background-color: white;
+  color: black;
+  margin: 6px 0;
+}
+.answer p{
+  padding: 12px 44px 12px 15px;
+  margin-bottom: 0;
+}
+.tickbox{
+  position: absolute;
+  right: 9px;
+  top: 7px;
+  width: 30px;
+  height: 30px;
+  margin: 1px;
+  background-image: url("../images/radio.png");
+}
+.tickbox.ticked{
+  background-position: 0 -31px;
+}
+.testsubmit{
+  position: absolute;
+  pointer-events: none;
+  opacity: 0.5;
+  bottom: 56px;
+  right:0;
+  width: 128px;
+  height: 48px;
+}
+.testsubmit button{
+  background-image: url("../images/Submit.png");
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  width: 128px;
+  height: 54px;
+}
+.active{
+  pointer-events: auto;
+  opacity: 1;
+  -webkit-transition: opacity 0.5s ease;
+  -moz-transition: opacity 0.5s ease;
+  -ms-transition: opacity 0.5s ease;
+  -o-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+.testpanel{
+  position: absolute;
+  bottom: 0;
+  margin: 0 46px;
+  width: 100%;
+  height: 0px;
+  opacity: 0;
+  padding: 15px 20px;
+  background-color: rgb(27, 20, 100);
+  color: white;
+}
+.testpanel h4{
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 900;
+}
+footer{
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 46px;
+  background-color: rgba(27,20,100,0.30);
+}
+.previous{
+  background-image: url("../images/back_btn_disabled.png");
+  height: 46px;
+  width: 46px;
+  position: absolute;
+  left:0;
+  bottom: 0;
+}
+.previous.activefooter{
+  background-image: url("../images/back_btn.png") !important;
+  -webkit-transition: background-image 0.5s ease;
+  -moz-transition: background-image 0.5s ease;
+  -ms-transition: background-image 0.5s ease;
+  -o-transition: background-image 0.5s ease;
+  transition: background-image 0.5s ease;
+}
+.next{
+  background-image: url("../images/next_btn.png");
+  pointer-events: none;
+  opacity: 0;
+  height: 46px;
+  width: 46px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.next.activefooter{
+  pointer-events: auto;
+  opacity: 1;
+  -webkit-transition: opacity .5s ease;
+  -moz-transition: opacity .5s ease;
+  -ms-transition: opacity .5s ease;
+  -o-transition: opacity .5s ease;
+  transition: opacity .5s ease;
+}
+@media (min-width: 768px) {
+  .content{
+  margin: 12px 37px 0 37px;
+  }
+  header h1{
+    font-size: 20px;
+    line-height: 20px;
+    margin-left: 120px;
+    margin-top:0;
+    margin-bottom: 0;
+  }
+  .testicon{
+    display: inline-block;
+    height:96px;
+    width: 96px;
+  }
+  .decoration{
+    display: inline-block;
+    position: relative;
+  }
+  .decoration div {
+    position: absolute;
+    margin: 13px 0 0 10px;
+    vertical-align: top;
+    height: 40px;
+    width: 40px;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    background-color: rgb(27, 20, 100);
+    z-index: 9;
+  }
+  .questionbox{
+    display: inline-block;    
+    vertical-align: top;
+    margin-left: 22px;
+    z-index: 10;
+  }
+}
